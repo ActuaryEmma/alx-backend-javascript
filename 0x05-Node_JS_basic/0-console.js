@@ -4,8 +4,8 @@
  * argument to the standard output stream.
  *
  * */
-function displayMessage(message) {
-	console.log(message)
-}
+const displayMessage = (msg) => {
+  console.log(msg);
+};
 
 module.exports = displayMessage;
